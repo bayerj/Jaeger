@@ -42,7 +42,6 @@ class LogUniform(Numeric):
 
     def _draw(self, seed):
         drawn = self.uniform.draw(seed)
-        print 'idrew', drawn
         return np.exp(drawn)
 
 
